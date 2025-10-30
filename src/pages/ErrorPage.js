@@ -1,14 +1,10 @@
-import { useRouteError } from "react-router-dom";
-
 function ErrorPage() {
-  const error = useRouteError();
-  console.error(error);
-
   return (
     <main>
-        <h1>Whoops! Something went wrong!</h1>
+      <h1>404 - Page Not Found</h1>
+      <p>Sorry, the page you are looking for does not exist.</p>
     </main>
   );
-};
+}
 
 export default ErrorPage;
